@@ -56,5 +56,22 @@ function buildMessage(senderID, receiverID, messageType, flatFileRef) {
 }
 ```
 
+```
+function generateFlatFileRef(scrumId, prefixId, sequenceNumber) {
+  // Ensure inputs are strings and properly padded
+  const paddedScrumId = scrumId.toString().padEnd(4, '0').slice(0, 4);
+  const paddedPrefixId = prefixId.toString().padEnd(3, '0').slice(0, 3);
+  const paddedSequence = sequenceNumber.toString().padStart(10, '0').slice(-10);
 
+  // Get current date in YYMMDD format
+  const now = new Date();
+  const year = now.getFullYear().toString().slice(-2);
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const sysDate = `${year}${month}${day}`;
+
+  // Build the FlatFile Ref No
+  return `${paddedScrumId}${paddedPrefixId}${sysDate}${paddedSequence}`;
+}
+```
 
