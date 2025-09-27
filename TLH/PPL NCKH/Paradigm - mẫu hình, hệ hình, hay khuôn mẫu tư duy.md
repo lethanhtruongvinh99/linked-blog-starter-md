@@ -22,7 +22,7 @@ Bao gồm: thiết kế nghiên cứu, phương pháp thu thập dữ liệu, k�
 ## Axiology - Xã hội luận
 Là quan điểm về **vai trò của giá trị, đạo đức và thiên kiến** trong nghiên cứu.
 Trả lời câu hỏi: Nhà nghiên cứu có thể trung lập không? Giá trị ảnh hưởng đến nghiên cứu như thế nào?
-### Mối quan hệ giữa Ontology, Epistemology và Methodology
+## Mối quan hệ giữa Ontology, Epistemology và Methodology
 #### Ontology --> Epistemology
 - Ontology định nghĩa **bản chất của thực tại** (What is real?):
     
@@ -72,6 +72,54 @@ Khi xây dựng đề cương, hãy luôn kiểm tra xem:
 1. Giả định về thực tại (ontology) có ăn khớp với cách bạn xác định tri thức (epistemology)?
 2. Chiến lược nghiên cứu (methodology) có phù hợp với hai giả định trên?
 3. Phương pháp cụ thể (methods) có thực sự hiện thực hoá được hướng tiếp cận mà bạn chọn?
+### Mối quan hệ giữa Methodology và Methods & Techniques
+Methodology là khung lý thuyết và chiến lược tổng thể cho nghiên cứu, còn Methods và Techniques là các công cụ cụ thể để thu thập và phân tích dữ liệu trong khuôn khổ đó.
+#### Methodology
+Methodology (phương pháp luận) xác định
+
+- Giả định nền tảng (ontology, epistemology)
+- Chiến lược nghiên cứu tổng thể
+- Cách tiếp cận (định lượng, định tính, hỗn hợp)
+#### Methods
+Methods (phương pháp) là các cách thu thập hoặc phân tích dữ liệu dựa trên methodology đã chọn, ví dụ:
+
+- Khảo sát có cấu trúc
+- Phỏng vấn bán cấu trúc
+- Thí nghiệm kiểm định giả thuyết
+#### Techniques
+Techniques (kỹ thuật) là các thủ tục chi tiết hơn trong mỗi method, ví dụ:
+
+- Thiết kế bảng hỏi với thang Likert
+- Lập mã (coding) trong phân tích nội dung
+- Sử dụng ANOVA, hồi quy đa biến
+#### Mối quan hệ
+Methodology → Methods → Techniques
+- Methodology định hướng việc chọn Methods:
+    
+    - Nếu methodology là positivism → chọn phương pháp định lượng.
+    - Nếu methodology là interpretivism → chọn phương pháp định tính.
+    
+- Mỗi Method triển khai cụ thể tư tưởng của Methodology.
+- Techniques là các bước và công cụ chi tiết để thực hiện từng Method.
+#### Ví dụ minh họa mối quan hệ Methodology → Methods → Techniques
+
+##### 1. Paradigm Positivism
+
+| Methodology                            | Methods                       | Techniques                              |
+|----------------------------------------|-------------------------------|-----------------------------------------|
+| Định lượng, kiểm chứng giả thuyết       | Structured survey; Experiment | Likert scale questionnaire; ANOVA; Regression analysis |
+
+##### 2. Paradigm Interpretivism
+
+| Methodology                                 | Methods                                       | Techniques                       |
+|---------------------------------------------|-----------------------------------------------|----------------------------------|
+| Định tính, diễn giải ngữ cảnh                | In-depth interviews; Participant observation  | Thematic coding; Thick description |
+
+##### 3. Paradigm Pragmatism
+
+| Methodology                                     | Methods                            | Techniques                                                          |
+| ----------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------- |
+| Mixed methods, tập trung vào ứng dụng thực tiễn | Survey; Semi-structured interviews | Likert scale questionnaire; Thematic coding; Descriptive statistics |
 
 ## Tổng kết
 | Thành phần   | Câu hỏi chính cần trả lời                                     |
